@@ -1,0 +1,53 @@
+
+body {
+    background-color: #191414;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.premium-info {
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #1DB954;
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.premium-benefits {
+    margin-top: 30px;
+}
+
+.premium-benefits li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.premium-benefits li i {
+    color: #14813A;
+    margin-right: 10px;
+}
+
+.btn-custom {
+    background-color: #1DB954;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #14813A;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #191414;
+    color: white;
+}

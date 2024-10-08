@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #191414;
+    color: #fff;
+}
+
+.navbar-spotify {
+    padding: 15px 0px;
+	background: rgba(6, 29, 10, 0.6);
+}
+
+#baixar {
+    flex: 1;
+}
+
+.navbar-spotify {
+    background-color: transparent;
+}
+
+.btn-custom {
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 18px;
+    transition: all 0.3s ease; 
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+    background-color: #1DB954; 
+}
+
+.btn-roxo {
+    background-color: #0e680e;
+    color: #ffffff;
+}
+
+.btn-roxo:hover {
+	background: #279636;
+	color: white;
+}
+
+#baixar h3 {
+	color: #9bf0e1;
+}
+
+footer {
+	background: #020a02;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}

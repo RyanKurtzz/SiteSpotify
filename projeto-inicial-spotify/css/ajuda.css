@@ -1,0 +1,97 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #191414;
+    color: #fff;
+}
+
+.navbar-spotify {
+    padding: 15px 0px;
+	background: rgba(6, 29, 10, 0.6);
+}
+
+#ajuda {
+    height: auto;
+    padding-top: 100px; 
+}
+
+#ajuda h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#ajuda h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #282828;
+    border: none;
+    margin: 10px 0;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    background-color: #1DB954;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.card-header:hover {
+    background-color: #1aa34a;
+}
+
+.btn-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: #1DB954;
+}
+
+.text-link {
+    color: #1DB954;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+	background: #020a02;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}

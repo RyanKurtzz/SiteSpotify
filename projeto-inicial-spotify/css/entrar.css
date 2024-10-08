@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.navbar-spotify {
+    padding: 15px 0px;
+	background: rgba(6, 29, 10, 0.6);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1DB954;
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+.login-section {
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.example.com/fundo-spotify.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    background-color: #282828;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    animation: fadeInUp 1s;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.btn-social {
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-facebook {
+    background-color: #1877f2;
+}
+
+.btn-google {
+    background-color: #db4437;
+}
+
+.btn-apple {
+    background-color: #333333;
+}
+
+.btn-login {
+    background-color: #1db954;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #1ed760;
+    transform: translateY(-5px);
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #b3b3b3;
+    margin: 0 10px;
+}
+
+.extra-options a {
+    color: #b3b3b3;
+}
+
+.extra-options a:hover {
+    color: #1ed760;
+}
+
+footer {
+	background: #020a02;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 1 3px;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
